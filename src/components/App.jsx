@@ -33,7 +33,6 @@ export function App() {
     <>
       <Section title="Please leave feedback">
         <FeedbackOptions
-          options={['good', 'neutral', 'bad']}
           goodeedback={goodIncrement}
           neutraleedback={neutralIncrement}
           badeedback={badIncrement}
